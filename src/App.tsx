@@ -141,12 +141,6 @@ function App() {
                 >
                   Blog
                 </Link>
-                <Link
-                  to="/seo-blog"
-                  className="uppercase tracking-wider text-sm font-medium hover:text-[#B026FF] transition"
-                >
-                  Blog SEO
-                </Link>
                 <button className="cta-button" onClick={handleStartClick}>
                   <span className="uppercase tracking-wider text-sm font-medium text-white">Décoller</span>
                 </button>
@@ -217,12 +211,6 @@ function App() {
                 className="block px-3 py-2 uppercase tracking-wider text-sm font-medium hover:text-[#B026FF] transition"
               >
                 Blog
-              </Link>
-              <Link
-                to="/seo-blog"
-                className="block px-3 py-2 uppercase tracking-wider text-sm font-medium hover:text-[#B026FF] transition"
-              >
-                Blog SEO
               </Link>
             </div>
           </div>
