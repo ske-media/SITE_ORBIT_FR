@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /blog/
+Allow: /contact
+Allow: /mentions-legales
+Allow: /politique-de-confidentialite
+Allow: /devenir-partenaire
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Allow: /
+
+Sitemap: https://agence-orbit.com/sitemap.xml
