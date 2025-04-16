@@ -58,7 +58,7 @@ function StrapiBlog() {
           content="Chaque histoire est un témoignage précieux qui rappelle qu’entreprendre, c’est avant tout croire en son projet et oser faire le premier pas."
         />
         {/* La canonical indique l'URL officielle de la page blog */}
-        <link rel="canonical" href="https://agence-orbit.com/blog" />
+        <link rel="canonical" href="https://agence-orbit.fr/blog" />
       </Helmet>
 
       <div className="min-h-screen pt-24 pb-16">
