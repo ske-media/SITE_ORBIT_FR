@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                   href="mailto:info@agence-orbit.fr"
                   className="hover:text-white transition"
                 >
-                  info@agence-orbit.ch
+                  info@agence-orbit.fr
                 </a>
               </li>
               <li className="text-gray-400 flex items-center">
