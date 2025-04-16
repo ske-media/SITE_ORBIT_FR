@@ -354,7 +354,7 @@ const Contact: React.FC = () => {
             <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Votre site web personnalisé</h2>
             <div className="space-y-6 text-gray-300">
               <p className="text-sm sm:text-base">
-                Pour seulement 1'999 CHF, obtenez un site web professionnel qui reflète parfaitement votre activité et vos valeurs.
+                Pour seulement 1'999 EUR, obtenez un site web professionnel qui reflète parfaitement votre activité et vos valeurs.
               </p>
               <ul className="space-y-3 sm:space-y-4">
                 <li className="flex items-start gap-3">
