@@ -383,14 +383,15 @@ const Contact: React.FC = () => {
                     className="flex items-center gap-3 text-gray-400 hover:text-white transition text-sm sm:text-base"
                   >
                     <Phone className="w-5 h-5" />
-                    022 886 00 69
+                    06 06 44 88 37
+                    06 95 51 37 65
                   </a>
                   <a
                     href="mailto:info@agence-orbit.ch"
                     className="flex items-center gap-3 text-gray-400 hover:text-white transition"
                   >
                     <Mail className="w-5 h-5" />
-                    info@agence-orbit.ch
+                    info@agence-orbit.fr
                   </a>
                   <div className="flex items-center gap-3 text-gray-400">
                     <MapPin className="w-5 h-5" />
