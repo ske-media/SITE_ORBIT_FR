@@ -394,7 +394,7 @@ const Contact: React.FC = () => {
                   </a>
                   <div className="flex items-center gap-3 text-gray-400">
                     <MapPin className="w-5 h-5" />
-                    Genève
+                    France
                   </div>
                 </div>
               </div>
