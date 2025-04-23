@@ -76,14 +76,13 @@ function StrapiSeoArticlePage() {
     metaImageUrl = `https://siteorbit-cms-production.up.railway.app${article.meta_image.url}`;
   }
 
-  return (
+   return (
     <>
       <Helmet>
         {/* Titre et description pour le SEO */}
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
-
-        {/* Balise canonical */}
+        <link rel="alternate" hreflang="x-default" href={`https://agence-orbit.com/seo-blog/${article.slug}`} />
         <link rel="canonical" href={`https://agence-orbit.fr/seo-blog/${article.slug}`} />
 
         {/* Balises OG (optionnel) */}

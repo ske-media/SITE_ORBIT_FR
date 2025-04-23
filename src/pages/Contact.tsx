@@ -21,7 +21,7 @@ const questions: Question[] = [
   {
     key: 'name',
     question: '1. Votre prénom et nom',
-    placeholder: '📝 Pour savoir à qui on s’adresse',
+    placeholder: '📝 Pour savoir à qui on s\'adresse',
     type: 'text',
     required: true,
   },
@@ -215,8 +215,12 @@ const Contact: React.FC = () => {
   return (
     <>
       <Helmet>
+        {/* lang="fr-FR" défini dans index.html */}
         <title>Contact | Agence Orbit</title>
         <link rel="canonical" href="https://agence-orbit.fr/contact" />
+        <link rel="alternate" hreflang="fr-FR" href="https://agence-orbit.fr/contact" />
+        <link rel="alternate" hreflang="fr-CH" href="https://agence-orbit.com/contact" />
+        <link rel="alternate" hreflang="x-default" href="https://agence-orbit.com/contact" />
         <meta
           name="description"
           content="Contactez l'Agence Orbit pour discuter de votre projet web sur mesure. Devis gratuit et sans engagement."

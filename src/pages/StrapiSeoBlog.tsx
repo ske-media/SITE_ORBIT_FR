@@ -82,11 +82,16 @@ console.log('🔴 raw Strapi response.data.data:', raw);
   return (
     <>
       <Helmet>
+        {/* lang="fr-FR" défini dans index.html */}
         <title>Notre Blog | Agence Orbit</title>
         <meta
           name="description"
           content="Découvrez nos articles de blog pour booster votre présence digitale."
         />
+        <link rel="canonical" href="https://agence-orbit.fr/seo-blog" />
+        <link rel="alternate" hreflang="fr-FR" href="https://agence-orbit.fr/seo-blog" />
+        <link rel="alternate" hreflang="fr-CH" href="https://agence-orbit.com/seo-blog" />
+        <link rel="alternate" hreflang="x-default" href="https://agence-orbit.com/seo-blog" />
       </Helmet>
 
       <div className="min-h-screen pt-24 pb-16">
