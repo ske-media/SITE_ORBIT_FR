@@ -536,7 +536,7 @@ function Home() {
         </div>
       </section>
       
-      {/* Comparison Table */}
+      {/* Comparison Table yeah */}
       <section className="py-20 bg-gradient-to-b from-transparent to-[#B026FF]/5">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 gradient-text">Pourquoi Orbit est différent</h2>
