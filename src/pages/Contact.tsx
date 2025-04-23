@@ -384,7 +384,6 @@ const Contact: React.FC = () => {
                   >
                     <Phone className="w-5 h-5" />
                     06 06 44 88 37
-                    06 95 51 37 65
                   </a>
                   <a
                     href="mailto:info@agence-orbit.ch"
